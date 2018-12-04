@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nf147.ssm_pet.dao.PetMapper">
+    <resultMap id="BaseResultMap" type="com.nf147.ssm_pet.entity.Pet">
+        <id column="p_id" jdbcType="INTEGER" property="pId"/>
+        <result column="c_id" jdbcType="INTEGER" property="categoryId"/>
+        <result column="t_id" jdbcType="INTEGER" property="tId"/>
+        <result column="p_name" jdbcType="VARCHAR" property="pName"/>
+        <result column="p_price" jdbcType="DECIMAL" property="pPrice"/>
+        <result column="p_status" jdbcType="VARCHAR" property="pStatus"/>
+
+        <!-- 数据表与实体类对应 -->
+        <collection property="category" ofType="com.nf147.ssm_pet.entity.Category">
+            <id column="c_id" jdbcType="INTEGER" property="cId"/>
+            <result column="type" jdbcType="VARCHAR" property="type"/>
+        </collection>
+
+        <collection property="tag" ofType="com.nf147.ssm_pet.entity.Tag">
+            <id column="t_id" jdbcType="INTEGER" property="tId"/>
+            <result column="tag" jdbcType="VARCHAR" property="tag"/>
+        </collection>
+
+    </resultMap>
+
+    <!-- 查询全部宠物 -->
+    <select id="selectAll" resultMap="BaseResultMap">
+      select p.p_id,c.`type`,t.tag,p.p_name,p_price,p_status,c.c_id,t.t_id from
+         pet p inner join category c
+         on p.c_id=c.c_id
+         inner join tag t
+      on p.t_id=t.t_id group by  p_id;
+  </select>
+
+    <!-- 模糊查询 -->
+    <select id="selectVague" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select p.p_id,c.`type`,t.tag,p.p_name,p_price,p_status,t.t_id,c.c_id from
+            pet p inner join category c
+            on p.c_id=c.c_id
+            inner join tag t
+            on p.t_id=t.t_id
+                where p.p_name like #{pName,jdbcType=VARCHAR}
+                or c.`type` like #{type,jdbcType=VARCHAR}
+                or t.tag like #{tag,jdbcType=VARCHAR}
+                or p.p_status like #{pStatus,jdbcType=VARCHAR}
+        group by  p_id;
+    </select>
+
+
+    <!-- 删除宠物 -->
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from pet
+    where p_id = #{pId,jdbcType=INTEGER}
+  </delete>
+
+    <!-- 新增宠物 -->
+    <insert id="insert" parameterType="com.nf147.ssm_pet.entity.Pet">
+        insert into pet (c_id, t_id,p_name, p_price, p_status)
+        values ( #{categoryId,jdbcType=INTEGER}, #{tId,jdbcType=INTEGER},
+            #{pName,jdbcType=VARCHAR}, #{pPrice,jdbcType=DECIMAL}, #{pStatus,jdbcType=VARCHAR}
+             )
+  </insert>
+
+    <!-- 修改宠物信息 -->
+    <update id="updateByPrimaryKey" parameterType="com.nf147.ssm_pet.entity.Pet">
+    update pet
+    set c_id = #{categoryId,jdbcType=INTEGER},
+      t_id = #{tId,jdbcType=INTEGER},
+      p_name = #{pName,jdbcType=VARCHAR},
+      p_price = #{pPrice,jdbcType=DECIMAL},
+      p_status = #{pStatus,jdbcType=VARCHAR}
+    where p_id = #{pId,jdbcType=INTEGER}
+  </update>
+
+    <!-- 根据Id查询 -->
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select p.p_id,c.`type`,t.tag,p.p_name,p_price,p_status,t.t_id,c.c_id from
+      pet p inner join category c
+      on p.c_id=c.c_id
+      inner join tag t
+    on p.t_id=t.t_id where p_id = #{pId,jdbcType=INTEGER}    group by  p_id;
+  </select>
+
+
+</mapper>

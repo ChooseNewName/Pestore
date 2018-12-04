@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js" ></script>
+</head>
+<body>
+
+<div>
+    <button onclick="fasong()">发送请求</button>
+</div>
+
+
+</body>
+
+
+<script>
+
+    const url = "http://localhost:8080";
+
+    function fasong() {
+        fetch(url + "/cors", {
+            method: 'get',
+        }).then(resp => resp.text())
+            .then(console.log);
+    }
+
+    // function fasong12() {
+    //     $.ajax({
+    //         method: "get",
+    //         url: url + "/cors",
+    //         dataType: 'jsonp',
+    //         jsonpCallback: 'hehehe',
+    //         jsonp: 'xxxxxxxxxxxxxxxxxxxxxxx'
+    //     }).done((data) => {
+    //         console.log(data);
+    //     }).fail((x, y, z) => {
+    //         console.log(x, y, z);
+    //     });
+    // }
+
+
+</script>
+</html>
