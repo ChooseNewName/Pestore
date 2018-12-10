@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ssm_pet:war exploded" />
+      <artifact name="ssm_pet_ajax:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -32,29 +32,31 @@
     <expand />
     <select />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="373298839">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.41" value="2" />
-          <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.open.time.47" value="3" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -63,7 +65,7 @@
           <entry key="ajax 笔记" value="672" />
           <entry key="dummy" value="33" />
           <entry key="html" value="117" />
-          <entry key="java" value="6548" />
+          <entry key="java" value="6542" />
           <entry key="jsp" value="7126" />
           <entry key="properties" value="269" />
           <entry key="xml" value="1170" />
@@ -72,7 +74,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="117" />
-          <entry key="JAVA" value="6548" />
+          <entry key="JAVA" value="6542" />
           <entry key="JSP" value="7126" />
           <entry key="PLAIN_TEXT" value="705" />
           <entry key="Properties" value="269" />
@@ -86,14 +88,13 @@
         <counts>
           <entry key="CLASS" value="18" />
           <entry key="HTML" value="7" />
-          <entry key="JAVA" value="114" />
+          <entry key="JAVA" value="108" />
           <entry key="JSP" value="23" />
           <entry key="JavaScript" value="8" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="Properties" value="19" />
           <entry key="RNG Compact" value="1" />
-          <entry key="SQL" value="1" />
-          <entry key="XML" value="132" />
+          <entry key="XML" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,65 +105,71 @@
           <entry key="ajax 笔记" value="2" />
           <entry key="class" value="18" />
           <entry key="html" value="7" />
-          <entry key="java" value="114" />
+          <entry key="java" value="108" />
           <entry key="js" value="8" />
           <entry key="jsp" value="23" />
           <entry key="properties" value="19" />
           <entry key="rnc" value="1" />
-          <entry key="sql" value="1" />
-          <entry key="xml" value="131" />
+          <entry key="xml" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
+    <session id="1902293461">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ajax 笔记" value="1" />
+          <entry key="html" value="3" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="4" />
+          <entry key="jsp" value="6" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="4" />
+          <entry key="JSP" value="6" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/PetController3.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/controller/PetController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/PetController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/PetController2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/entity/Tag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PetMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="27">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -196,15 +203,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spring/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/TagMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/update.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jquery.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/dao/PetMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updatePet.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pet.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/PetMapper2" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax 笔记" />
@@ -216,7 +219,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/fileUpload2.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/entity/Pet.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pet2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test_JSONP.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/filter/Filter.java" />
@@ -247,6 +249,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/PetContrller3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/PetController3.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/controller/PetController2.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updatePet.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/controller/PetController.java" />
       </list>
     </option>
   </component>
@@ -286,29 +293,30 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pet_1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ssm_pet_ajax" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pet_1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ssm_pet_ajax" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pet_1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="ssm_pet_ajax" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="pet_1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="ssm_pet_ajax" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="25" />
     <option name="y" value="50" />
     <option name="width" value="1176" />
@@ -319,46 +327,112 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ssm_pet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_pet" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm_pet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_pet" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm_pet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_pet" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm_pet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_pet" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="ssm_pet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm_pet" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm_pet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_pet_ajax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="ssm_pet_ajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,11 +441,11 @@
     <property name="SearchEverywhereHistoryKey" value="DateTimeFormatAnnotationFormatterFactory&#9;FILE&#9;jar://E:/maven-repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar!/org/springframework/format/datetime/DateTimeFormatAnnotationFormatterFactory.class&#10;DateTimeFormatAnn&#9;PSI&#9;JAVA://org.springframework.format.datetime.DateTimeFormatAnnotationFormatterFactory&#10;Dateformatter&#9;PSI&#9;JAVA://javax.swing.text.DateFormatter&#10;Dateformar&#9;PSI&#9;JAVA://org.springframework.format.datetime.standard.DateTimeFormatterRegistrar&#10;DataFormatter&#9;PSI&#9;JAVA://org.apache.poi.ss.usermodel.DataFormatter&#10;DateTimefor&#9;PSI&#9;JAVA://org.springframework.format.annotation.DateTimeFormat" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544099446094" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../个人项目/MyBlog" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544359485489" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -408,19 +482,17 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Cat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.44" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.44" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="ssm_pet:war exploded">
+        <artifact name="ssm_pet_ajax:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm_pet" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm_pet_ajax_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -428,10 +500,10 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="57659" />
+        <option name="DEBUG_PORT" value="57207" />
       </RunnerSettings>
       <RunnerSettings RunnerId="JRebel Debug">
-        <option name="DEBUG_PORT" value="57660" />
+        <option name="DEBUG_PORT" value="57208" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -509,8 +581,9 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="ssm_pet:war exploded" />
+          <artifact name="ssm_pet_ajax:war exploded" />
         </option>
       </method>
     </configuration>
@@ -547,17 +620,15 @@
       <workItem from="1543557675454" duration="599000" />
       <workItem from="1543738675058" duration="1550000" />
       <workItem from="1543749326441" duration="20615000" />
-      <workItem from="1543890609145" duration="1431000" />
-      <workItem from="1543893302989" duration="8767000" />
-      <workItem from="1543969882544" duration="4431000" />
-      <workItem from="1544056268495" duration="3388000" />
-      <workItem from="1544354772862" duration="61000" />
-      <workItem from="1544359203415" duration="278000" />
+      <workItem from="1543890609145" duration="731000" />
+      <workItem from="1543891607071" duration="1374000" />
+      <workItem from="1543906942452" duration="692000" />
+      <workItem from="1544359352971" duration="174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224888000" />
+    <option name="totallyTimeSpent" value="209503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,7 +640,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="50" width="1176" height="620" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -577,7 +648,49 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" sideWeight="0.28968903" side_tool="true" weight="0.26626325" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.71031094" visible="true" weight="0.29928315" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.71031094" visible="true" weight="0.24508321" />
+      <window_info id="JRebel" order="7" side_tool="true" />
+      <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Problems" order="0" />
+      <window_info anchor="bottom" id="Spring" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.41456583" side_tool="true" weight="0.4858871" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4977307" weight="0.40589198" />
+      <window_info anchor="bottom" id="JRebel Executor" order="8" weight="0.45008183" />
+      <window_info anchor="bottom" id="JRebel Console" order="9" sideWeight="0.19364598" side_tool="true" weight="0.096345514" />
+      <window_info anchor="bottom" id="Message" order="10" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.32724252" />
+      <window_info anchor="bottom" id="Application Servers" order="12" sideWeight="0.49924356" weight="0.40425533" />
+      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.5854342" weight="0.49918166" />
+      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="16" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="17" sideWeight="0.5648485" weight="0.20130932" />
+      <window_info anchor="right" id="JSF" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.19742814" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32753405" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="6" weight="0.32810047" />
+      <window_info anchor="right" id="CDI" order="7" weight="0.32967034" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32829046" />
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="11" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="12" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Web" order="5" sideWeight="0.28968903" side_tool="true" weight="0.26626325" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.71031094" visible="true" weight="0.2624811" />
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info id="Structure" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Problems" order="0" />
@@ -589,11 +702,11 @@
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4977307" weight="0.10310966" />
       <window_info anchor="bottom" id="JRebel Executor" order="8" weight="0.45008183" />
-      <window_info anchor="bottom" id="JRebel Console" order="9" sideWeight="0.2397882" side_tool="true" weight="0.30441898" />
+      <window_info anchor="bottom" id="JRebel Console" order="9" sideWeight="0.19364598" side_tool="true" weight="0.096345514" />
       <window_info anchor="bottom" id="Message" order="10" />
       <window_info anchor="bottom" id="Find" order="11" weight="0.32724252" />
       <window_info anchor="bottom" id="Application Servers" order="12" sideWeight="0.49924356" weight="0.20621932" />
-      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.7602118" weight="0.34369886" />
+      <window_info anchor="bottom" id="Run" order="13" sideWeight="0.6164902" visible="true" weight="0.35188216" />
       <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="16" weight="0.3289689" />
@@ -611,7 +724,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="11" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="12" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -640,29 +753,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/aaa.html" />
-    <entry file="file://$PROJECT_DIR$/../../个人项目/shop/src/com/nf/shop/entity/TypeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../个人项目/shop/src/com/nf/shop/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../个人项目/shop/src/com/nf/shop/entity/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/MyDateConverter.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -670,7 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/demo_JSONP.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0.jar!/javax/faces/convert/Converter.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,7 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/testID.jsp" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar!/org/springframework/core/convert/converter/Converter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -709,9 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ssm_employee/src/main/java/com/nf147/ssm_employee/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../ssm_employee/src/main/java/com/nf147/ssm_employee/entity/Employee.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar!/org/springframework/format/datetime/DateTimeFormatAnnotationFormatterFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -734,37 +820,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/Person.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/shenfenyanzhen/PersonFormatter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/shenfenyanzhen/Person.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/shenfenyanzhen/PersonFormatter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/shenfenyanzhen/Person.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/DemoController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/Emp3Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/dao/PetMapper2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2943">
-          <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/filter/PetFilter.java" />
     <entry file="file://$PROJECT_DIR$/../../跨域请求/kuayuqingqiu/src/main/java/filter/FilterCors1.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -773,21 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/filter/PetFilter.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperProxy.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -823,24 +868,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/entity/Pet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/entity/Pet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/entity/Category.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/entity/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/dao/PetMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/controller/PetController3.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="756">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="e#880#896#0" expanded="true" />
+            <element signature="e#939#952#0" expanded="true" />
+            <element signature="e#1576#1599#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -851,58 +926,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pet.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/dao/PetMapper2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/dao/PetMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sql/钓宠物网.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="34" column="61" lean-forward="true" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/PetController3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/PetController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/controller/PetController2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet/entity/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/aaa.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/fileUpload2.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/qipan.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PetMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="-837">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pet.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/testID.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/updatePet.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/pet2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3807" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/ajax 笔记">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_pet_ajax.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nf147/ssm_pet_ajax/controller/PetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -912,7 +993,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ssm_pet:war exploded</last-edited>
+          <last-edited>ssm_pet_ajax:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -960,11 +1041,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|ssm_pet</last-edited>
+          <last-edited>ssm_pet_ajax</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
