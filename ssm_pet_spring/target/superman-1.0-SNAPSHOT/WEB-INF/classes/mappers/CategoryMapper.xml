@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nf147.ssm_pet_spring.dao.CategoryMapper">
+
+  <resultMap id="BaseResultMap" type="com.nf147.ssm_pet_spring.entity.Category">
+    <id column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+  </resultMap>
+
+  <select id="selectAll" resultMap="BaseResultMap">
+    select c_id, `type` from category
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from category
+    where c_id = #{cId,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="insert" parameterType="com.nf147.ssm_pet_spring.entity.Category">
+    insert into category (c_id, type)
+    values (#{cId,jdbcType=INTEGER}, #{type,jdbcType=VARCHAR})
+  </insert>
+
+  <update id="updateByPrimaryKey" parameterType="com.nf147.ssm_pet_spring.entity.Category">
+    update category
+    set type = #{type,jdbcType=VARCHAR}
+    where c_id = #{cId,jdbcType=INTEGER}
+  </update>
+
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select c_id, type
+    from category
+    where c_id = #{cId,jdbcType=INTEGER}
+  </select>
+
+
+
+</mapper>
